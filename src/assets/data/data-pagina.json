@@ -1,0 +1,24 @@
+{
+    "titulo": "Steveen Blanco",
+    "email": "bjtema16@hotmail.com",
+    "nombre_corto": "Bryan",
+    "pagina_autor": "http://mipagina.com",
+    "facebook": "https://www.facebook.com/bryan.tema.505",
+    "twitter": "https://twitter.com/",
+    "instagram": "https://www.instagram.com/",
+    "tublr": "https://www.tumbler.com/",
+    "equipo_trabajo": [{
+        "nombre": "Olga",
+        "apellido": "Hinestroza",
+        "dpi": "456465465",
+        "dependientes": [{
+            "nombre": "Mynor",
+            "apellido": "vasquez",
+            "dpi": "8978969"
+        }, {
+            "nombre": "Wendy",
+            "apellido": "González",
+            "dpi": "789566"
+        }]
+    }]
+}
