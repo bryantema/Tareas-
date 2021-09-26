@@ -1,0 +1,10 @@
+<div class="ae-grid__item item-lg-4 ae-kappa au-mb-3" *ngFor="let producto of arrProductos">
+    <img [src]="producto.imagen" alt="" class="au-mb-3">
+    <h5 class="ae-u-bolder au-mt-2">{{producto.nombre}}</h5>
+    <p class="ae-u-bolder au-mb-3">{{producto.Precio}}</p>
+    <p class="au-lg-ta-left au-mb-3 au-pl-4 au-pr-4">{{producto.Descripcion}}</p>
+    <a class="fcc-btn" [routerLink]="['/detalle-carros', producto.ID]">Ver Más</a> <br><br><br>
+   
+  </div>
+ 
+  

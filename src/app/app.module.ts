@@ -8,7 +8,9 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { PortafolioComponent } from './pages/portafolio/portafolio.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
-import {HttpClientModule} from '@angular/common/http'
+import {HttpClientModule} from '@angular/common/http';
+import { ProductosComponent } from './pages/productos/productos.component';
+import { DetalleCarrosComponent } from './pages/detalle-carros/detalle-carros.component'
 
 @NgModule({
   declarations: [
@@ -17,12 +19,16 @@ import {HttpClientModule} from '@angular/common/http'
     FooterComponent,
     PortafolioComponent,
     AboutComponent,
-    ItemComponent
+    ItemComponent,
+    ProductosComponent,
+    DetalleCarrosComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
